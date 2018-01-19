@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studying {CSS-GRID}</title>
+    <link rel="stylesheet" href="assets/style.css">
+  </head>
+  <body>
+
+    <h1><a href="index.html">Studying {CSS-GRID}</a></h1>
+    <h2>Grid Implicit vs Explicit Tracks</h2><span><a href="fundamentals.html"><<</a></span> Tutorials <span><a href="grid_implicit.html">>></a></span>
+      <div class="container">
+          <div class="item">1</div>
+          <div class="item">2</div>
+          <div class="item">3</div>
+          <div class="item">4</div>
+          <div class="item">5</div>
+          <div class="item">6</div>
+          <div class="item">7</div>
+          <div class="item">8</div>
+      </div>
+      <style>
+        .container{
+          display: grid;
+          grid-gap: 20px;
+          grid-template-columns: 200px 400px;
+          grid-template-rows:  50px 100px;
+          grid-auto-rows: 100px 500px;
+        }
+      </style>
+  </body>
+</html>
